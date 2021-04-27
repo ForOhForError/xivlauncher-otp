@@ -3,7 +3,9 @@ One-click OTP entry for XIV Launcher, for use with FFXIV's recent TOTP token sup
 
 # Usage
 
-PyOTP must be installed to use xivlauncher-otp. The easiest way to do so is with pip:
+xivlauncher-otp requires a Python 3 installation. For most cases, [python.org's release](https://www.python.org) is preferred.
+
+PyOTP must be installed to use xivlauncher-otp. The easiest way to do so is with pip, via the command:
 
 ```
 pip install pyotp
@@ -14,7 +16,7 @@ This can be extracted from the text of your registration QR code. Alternitively,
 may support exporting OTP secrets.
 
 Once this setup is done, set XIV Launcher's "Use One-Time-Passwords" option. When the prompt "Please enter your OTP key"
-appears, run xivlauncher-otp (either through the provided .bat file, or by running ```python xivlauncher-otp.py``` to enter the code automatically.
+appears, run xivlauncher-otp (either through the provided .bat file, or by running ```python xivlauncher-otp.py```) to enter the code automatically.
 
 # Security
 
