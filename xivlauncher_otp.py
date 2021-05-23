@@ -6,7 +6,7 @@ from time import sleep
 
 FUTURE_LOOKAHEAD_SECONDS = 5
 
-def main(args):
+def main(args=[]):
 	"""
 	Read TOTP secret from the environment, generate the current login code,
 	and send it to XIV Launcher via GETing its local login page.

@@ -16,6 +16,6 @@ setuptools.setup(
          "Programming Language :: Python :: 3",
          "Operating System :: OS Independent",
      ],
-     py_modules=['xivlauncher-otp'],
-     entry_points={'console_scripts': ['xivlauncher-otp = xivlauncher-otp:main']},
+     py_modules=['xivlauncher_otp'],
+     entry_points={'console_scripts': ['xivlauncher_otp=xivlauncher_otp:main']},
  )

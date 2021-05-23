@@ -24,7 +24,7 @@ Following installation with either method, the environment variable ```XIV_OTP_S
 This can be extracted from the text of your registration QR code. Alternitively, your authenticator application may support exporting OTP secrets.
 
 Once this setup is done, set XIV Launcher's "Use One-Time-Passwords" option. When the prompt "Please enter your OTP key"
-appears, run xivlauncher-otp (either through the provided .bat file, or by running ```python xivlauncher-otp.py```) to enter the code automatically.
+appears, run ```xivlauncher_otp``` (either through the provided .bat file, or by running ```python xivlauncher_otp.py```) to enter the code automatically.
 
 ## Security
 
