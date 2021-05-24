@@ -1,2 +1,2 @@
 @echo off
-python xivlauncher-otp.py
+python xivlauncher_otp.py
