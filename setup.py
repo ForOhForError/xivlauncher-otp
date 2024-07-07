@@ -11,7 +11,7 @@ setuptools.setup(
      long_description=long_description,
      long_description_content_type="text/markdown",
      packages=setuptools.find_packages(),
-     install_requires=['pyotp'],
+     install_requires=['pyotp', 'pyperclip'],
      classifiers=[
          "Programming Language :: Python :: 3",
          "Operating System :: OS Independent",
